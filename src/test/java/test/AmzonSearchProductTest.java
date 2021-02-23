@@ -12,7 +12,7 @@ import utility.PropertyManager;
 
 public class AmzonSearchProductTest extends BaseTestMethods{
 
-	@Test(invocationCount = 1)
+	@Test(invocationCount = 2)
 	public void searchProduct()
 	{
 		WebDriver driver= DriverBuilder.getdriver();
