@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" parallel="none">
-  <parameter name="browser" value="chrome"/>
   <test name="AmzonSearchProductTest(failed)" parallel="none">
-    <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="test.FlipkartProductSearchTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.FlipkartProductSearchTest -->
       <class name="test.AmzonSearchProductTest">
         <methods>
           <include name="setup"/>
@@ -13,4 +16,19 @@
       </class> <!-- test.AmzonSearchProductTest -->
     </classes>
   </test> <!-- AmzonSearchProductTest(failed) -->
+  <test name="FlipkartProductSearchTest(failed)" parallel="none">
+    <classes>
+      <class name="test.FlipkartProductSearchTest">
+        <methods>
+          <include name="setup"/>
+          <include name="searchProduct"/>
+        </methods>
+      </class> <!-- test.FlipkartProductSearchTest -->
+      <class name="test.AmzonSearchProductTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.AmzonSearchProductTest -->
+    </classes>
+  </test> <!-- FlipkartProductSearchTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
