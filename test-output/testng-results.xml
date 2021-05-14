@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="63660" started-at="2021-03-14T17:55:36Z" finished-at="2021-03-14T17:56:40Z">
+  <suite name="Suite" duration-ms="40007" started-at="2021-05-14T15:49:53Z" finished-at="2021-05-14T15:50:33Z">
     <groups>
     </groups>
-    <test name="AmzonSearchProductTest" duration-ms="49455" started-at="2021-03-14T17:55:36Z" finished-at="2021-03-14T17:56:25Z">
+    <test name="AmzonSearchProductTest" duration-ms="25511" started-at="2021-05-14T15:49:53Z" finished-at="2021-05-14T15:50:19Z">
       <class name="test.AmzonSearchProductTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.AmzonSearchProductTest@3cc2931c]" name="setup" is-config="true" duration-ms="2678" started-at="2021-03-14T23:25:36Z" finished-at="2021-03-14T23:25:39Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.AmzonSearchProductTest@7adda9cc]" name="setup" is-config="true" duration-ms="2557" started-at="2021-05-14T21:19:53Z" finished-at="2021-05-14T21:19:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="searchProduct()[pri:0, instance:test.AmzonSearchProductTest@3cc2931c]" name="searchProduct" duration-ms="29050" started-at="2021-03-14T23:25:39Z" finished-at="2021-03-14T23:26:08Z">
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:test.AmzonSearchProductTest@7adda9cc]" name="searchProduct" duration-ms="10152" started-at="2021-05-14T21:19:56Z" finished-at="2021-05-14T21:20:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:test.AmzonSearchProductTest@3cc2931c]" name="quitBrowser" is-config="true" duration-ms="1154" started-at="2021-03-14T23:26:08Z" finished-at="2021-03-14T23:26:09Z">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:test.AmzonSearchProductTest@7adda9cc]" name="quitBrowser" is-config="true" duration-ms="1236" started-at="2021-05-14T21:20:06Z" finished-at="2021-05-14T21:20:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.AmzonSearchProductTest@3cc2931c]" name="setup" is-config="true" duration-ms="1745" started-at="2021-03-14T23:26:09Z" finished-at="2021-03-14T23:26:11Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.AmzonSearchProductTest@7adda9cc]" name="setup" is-config="true" duration-ms="1745" started-at="2021-05-14T21:20:07Z" finished-at="2021-05-14T21:20:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="searchProduct()[pri:0, instance:test.AmzonSearchProductTest@3cc2931c]" name="searchProduct" duration-ms="13554" started-at="2021-03-14T23:26:11Z" finished-at="2021-03-14T23:26:24Z">
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:test.AmzonSearchProductTest@7adda9cc]" name="searchProduct" duration-ms="8913" started-at="2021-05-14T21:20:09Z" finished-at="2021-05-14T21:20:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:test.AmzonSearchProductTest@3cc2931c]" name="quitBrowser" is-config="true" duration-ms="1234" started-at="2021-03-14T23:26:24Z" finished-at="2021-03-14T23:26:25Z">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:test.AmzonSearchProductTest@7adda9cc]" name="quitBrowser" is-config="true" duration-ms="881" started-at="2021-05-14T21:20:18Z" finished-at="2021-05-14T21:20:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
       </class> <!-- test.AmzonSearchProductTest -->
     </test> <!-- AmzonSearchProductTest -->
-    <test name="FlipkartProductSearchTest" duration-ms="14180" started-at="2021-03-14T17:56:25Z" finished-at="2021-03-14T17:56:40Z">
+    <test name="FlipkartProductSearchTest" duration-ms="14431" started-at="2021-05-14T15:50:19Z" finished-at="2021-05-14T15:50:33Z">
       <class name="test.FlipkartProductSearchTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.FlipkartProductSearchTest@6fe7aac8]" name="setup" is-config="true" duration-ms="1764" started-at="2021-03-14T23:26:25Z" finished-at="2021-03-14T23:26:27Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.FlipkartProductSearchTest@49b0b76]" name="setup" is-config="true" duration-ms="1904" started-at="2021-05-14T21:20:19Z" finished-at="2021-05-14T21:20:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="searchProduct()[pri:0, instance:test.FlipkartProductSearchTest@6fe7aac8]" name="searchProduct" duration-ms="11469" started-at="2021-03-14T23:26:27Z" finished-at="2021-03-14T23:26:39Z">
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:test.FlipkartProductSearchTest@49b0b76]" name="searchProduct" duration-ms="11221" started-at="2021-05-14T21:20:21Z" finished-at="2021-05-14T21:20:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:test.FlipkartProductSearchTest@6fe7aac8]" name="quitBrowser" is-config="true" duration-ms="943" started-at="2021-03-14T23:26:39Z" finished-at="2021-03-14T23:26:40Z">
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:test.FlipkartProductSearchTest@49b0b76]" name="quitBrowser" is-config="true" duration-ms="1300" started-at="2021-05-14T21:20:32Z" finished-at="2021-05-14T21:20:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
