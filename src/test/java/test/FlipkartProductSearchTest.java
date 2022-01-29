@@ -13,7 +13,7 @@ import utility.PropertyManager;
 public class FlipkartProductSearchTest extends BaseTestMethods {
 	
 	@Test
-	public void searchProduct()
+	public void searchProductFlipkart()
 	{
 	WebDriver driver= DriverBuilder.getdriver();
 	FlipkartHome searchProduct= new FlipkartHome(driver);

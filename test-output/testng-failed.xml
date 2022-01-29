@@ -1,34 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" parallel="none">
-  <test name="AmzonSearchProductTest(failed)" parallel="none">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="AmzonSearchProductTest(failed)">
     <classes>
-      <class name="test.FlipkartProductSearchTest">
-        <methods>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- test.FlipkartProductSearchTest -->
       <class name="test.AmzonSearchProductTest">
         <methods>
+          <include name="closeReport"/>
+          <include name="quitBrowser"/>
+          <include name="searchProductAmazon"/>
+          <include name="searchProductFlipkart"/>
+          <include name="startReport"/>
           <include name="setup"/>
-          <include name="searchProduct"/>
         </methods>
       </class> <!-- test.AmzonSearchProductTest -->
     </classes>
   </test> <!-- AmzonSearchProductTest(failed) -->
-  <test name="FlipkartProductSearchTest(failed)" parallel="none">
-    <classes>
-      <class name="test.FlipkartProductSearchTest">
-        <methods>
-          <include name="setup"/>
-          <include name="searchProduct"/>
-        </methods>
-      </class> <!-- test.FlipkartProductSearchTest -->
-      <class name="test.AmzonSearchProductTest">
-        <methods>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- test.AmzonSearchProductTest -->
-    </classes>
-  </test> <!-- FlipkartProductSearchTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
